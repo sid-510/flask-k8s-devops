@@ -21,8 +21,8 @@ jobs:
 
             - name: Build Docker Image
               run: |
-                docker build -t sid-510/flask-k8s-app:latest .
+                docker build -t siddheeshhh/flask-k8s-app:latest .
 
             - name: Push Docker Image
               run: |
-                docker push sid-510/flask-k8s-app:latest
+                docker push siddheeshhh/flask-k8s-app:latest
